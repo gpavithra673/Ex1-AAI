@@ -1,8 +1,9 @@
-### Name :Pavithra G
-### Register No.: 212221240036
-### Experiment 1
-### DATE: 04.09.24
-# Implementation of Bayesian Networks
+Name :Pavithra G
+Register No.: 212221240036
+Experiment 1
+DATE: 04.09.24
+<H1 align-item="center"> Implementation of Bayesian Networks </H1>
+
 ## Aim :
 To create a bayesian Network for the given dataset in Python
 ## Algorithm:
