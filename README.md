@@ -1,7 +1,7 @@
-Name :Pavithra G
-Register No.: 212221240036
-Experiment 1
-DATE: 04.09.24
+<H5> Name :Pavithra G </H5>
+<H5>Register No.: 212221240036 </H5>
+<H5> Experiment 1 </H5>
+<H5> DATE: 04.09.24</H5>
 <H1 align-item="center"> Implementation of Bayesian Networks </H1>
 
 ## Aim :
