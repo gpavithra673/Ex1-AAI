@@ -1,8 +1,8 @@
-<H3> Name :Pavithra G</H3>
-<H3>Register No.: 212221240036</H3>
-<H3> Experiment 1</H3>
-<H3>DATE: 04.09.24</H3>
-<H1 ALIGN=CENTER> Implementation of Bayesian Networks</H1>
+### Name :Pavithra G
+### Register No.: 212221240036
+### Experiment 1
+### DATE: 04.09.24
+# Implementation of Bayesian Networks
 ## Aim :
     To create a bayesian Network for the given dataset in Python
 ## Algorithm:
