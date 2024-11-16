@@ -53,22 +53,18 @@ pd.options.display.max_columns=50
 
 # Read in the weather data csv
 df=pd.read_csv('weatherAUS.csv', encoding='utf-8')
-
 # Drop records where target RainTomorrow=NaN
 df=df[pd.isnull(df['RainTomorrow'])==False]
 # Drop the 'Date' column as it is not relevant for the model
 df = df.drop(columns='Date')
-
 # For other columns with missing values, fill them in with column mean for numeric columns only
 numeric_columns = df.select_dtypes(include=['number']).columns
 df[numeric_columns] = df[numeric_columns].fillna(df[numeric_columns].mean())
-
 # Create bands for variables that we want to use in the model
 df['WindGustSpeedCat']=df['WindGustSpeed'].apply(lambda x: '0.<=40'   if x<=40 else
                                                             '1.40-50' if 40<x<=50 else '2.>50')
 df['Humidity9amCat']=df['Humidity9am'].apply(lambda x: '1.>60' if x>60 else '0.<=60')
 df['Humidity3pmCat']=df['Humidity3pm'].apply(lambda x: '1.>60' if x>60 else '0.<=60')
-
 # Show a snaphsot of data
 print(df)
 
